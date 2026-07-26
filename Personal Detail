@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Details Form</title>
+</head>
+<body>
+
+    <h2>Personal Details Form</h2>
+
+    <form>
+
+        Name:
+        <input type="text" name="name"><br><br>
+
+        Email:
+        <input type="email" name="email"><br><br>
+
+        Password:
+        <input type="password" name="password"><br><br>
+
+        Gender:
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female<br><br>
+
+        Hobbies:
+        <input type="checkbox" name="hobby"> Reading
+        <input type="checkbox" name="hobby"> Sports
+        <input type="checkbox" name="hobby"> Music<br><br>
+
+        Date of Birth:
+        <input type="date" name="dob"><br><br>
+
+        Phone Number:
+        <input type="tel" name="phone"><br><br>
+
+        Address:<br>
+        <textarea rows="4" cols="30"></textarea><br><br>
+
+        City:
+        <select>
+            <option>Vadodara</option>
+            <option>Rajkot</option>
+            <option>Ahmedabad</option>
+            <option>Surat</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
